@@ -1,0 +1,448 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.body{
+    background-color: green;
+}
+
+.nav-bar{
+    
+    flex: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 5%;
+    z-index: 1000;
+    
+}
+/*.search {
+
+    background-color: #f0f5ff;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+}*/
+.menu{
+    margin-left: 5px ;
+}
+.menu i{
+    font-size: 20px;
+    color: black;
+}
+
+.search{
+    margin-left: 200px;
+}
+.search input{
+    height: 40px;
+    width: 500px;
+    background-color: transparent;
+    border-radius:15px ;
+    padding-left: 30px;
+}
+
+.search input ::placeholder{
+    padding-left: 20px;
+}
+.mic{
+    margin-left: 10px;
+}
+.mic i{
+    height: 40px;
+    width: 40px;
+    border-radius:50% ;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.create{
+    margin-left: 200px;
+}
+
+.create i{
+    font-size: 22px;
+}
+
+.notification{
+    margin-left: 10px;
+}
+.notification i{
+    font-size: 22px;
+
+}
+
+.user{
+    margin-left: 10px;
+}
+.user i{
+    font-size: 22px;
+
+}
+
+/*sidebar */
+.sidebar{
+    height: 100vh;
+    width: 250px;
+    margin-top: 20px;
+    padding-left: 25px;
+    overflow: scroll;
+}
+
+
+.home a{
+   
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.home i{
+    font-size: 20px;
+    
+}
+.shorts{
+    margin-top: 20px;
+}
+.shorts a{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+.shorts i{
+    font-size: 20px;
+    
+}
+.subscriptions{
+    margin-top: 20px;
+}
+
+.subscriptions a{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.subscriptions i{
+    font-size: 20px;
+}
+.line
+{
+    margin-top: 25px;
+    height: 2px;
+    width: 200px;
+    background-color: #aeabab;
+}
+.you{
+    margin-top: 20px;
+}
+.you a{
+
+     margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.you i{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.history
+{
+    margin-top: 20px;
+}
+.history i{
+    font-size: 20px;
+}
+.history a{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.playlists
+{
+    margin-top: 20px;
+}
+.playlists i{
+    font-size: 20px;
+}
+.playlists a{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.yourvideos
+{
+    margin-top: 20px;
+}
+.yourvideos i{
+    font-size: 20px;
+}
+.yourvideos a{
+    margin-left: 22px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.watchlater
+{
+    margin-top: 20px;
+}
+.watchlater i{
+    font-size: 20px;
+}
+.watchlater a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.likedvideos
+{
+    margin-top: 20px;
+}
+.likedvideos i{
+    font-size: 20px;
+}
+.likedvideos a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.subs{
+    margin-top: 20px;
+}
+.subs a{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+}
+
+.flowers{
+    margin-top: 20px;
+}
+.flowers a{
+    
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.fcbarca{
+    margin-top: 20px;
+}
+.fcbarca a{
+    
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+.acciojob{
+    margin-top: 20px;
+}
+.acciojob a{
+    
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.trademax{
+    margin-top: 20px;
+}
+.trademax a{
+    
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+.trending
+{
+    margin-top: 20px;
+}
+.trending i{
+    font-size: 20px;
+}
+.trending a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.shopping
+{
+    margin-top: 20px;
+}
+.shopping i{
+    font-size: 20px;
+}
+.shopping a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.music
+{
+    margin-top: 20px;
+}
+.music i{
+    font-size: 20px;
+}
+.music a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.movies
+{
+    margin-top: 20px;
+}
+.movies i{
+    font-size: 20px;
+}
+.movies a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.live
+{
+    margin-top: 20px;
+}
+.live i{
+    font-size: 20px;
+}
+.live a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.sports
+{
+    margin-top: 20px;
+}
+.sports i{
+    font-size: 20px;
+}
+.sports a{
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.desc {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.maincontent {
+    position: absolute;
+   top:20px;
+    margin-top: 60px; /* Space below the navbar */
+    margin-left: 300px; /* Space to the right of the sidebar */
+    padding: 20px;
+    background-color: #fff;
+    
+  }
+
+  .line1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+.line1 button {
+    padding: 10px 20px;
+    background-color: #6b6c6c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+.line2{
+    height: 350px;
+    width: 1050px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.box1{
+    height:50px ;
+    width:360px;
+    padding-left: 20px;
+    background-color: rgb(246, 247, 247);
+}
+
+.box1 iframe{
+
+    border-radius: 10px;
+    
+
+}
+.box1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.box1 img{
+    height: 35px;
+    width: 35px;
+}
+.chname{
+    margin-left: 10px;
+}
+.chname a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* Footer */
+/*
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #202020;
+    color: #fff;
+    margin-top: 20px;
+}
+*/
